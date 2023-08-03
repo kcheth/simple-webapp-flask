@@ -26,11 +26,12 @@ Install Python Flask dependency
 
 - Copy app.py or download it from source repository
 - Configure database credentials and parameters 
+Create a folder /opt/app.py and copy the code in app.py file in this repo to this file
 
 ## 3. Start Web Server
 
 Start web server
-
+cd /opt and run the below command
     FLASK_APP=app.py flask run --host=0.0.0.0
     
 ## 4. Test
