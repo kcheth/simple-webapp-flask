@@ -32,7 +32,8 @@ Create a folder /opt/app.py and copy the code in app.py file in this repo to thi
 
 Start web server
 cd /opt and run the below command
-    FLASK_APP=app.py flask run --host=0.0.0.0
+
+FLASK_APP=app.py flask run --host=0.0.0.0
     
 ## 4. Test
 
